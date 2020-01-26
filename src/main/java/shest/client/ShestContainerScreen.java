@@ -33,7 +33,7 @@ public class ShestContainerScreen extends BaseContainerScreen<ShestContainer> {
 		for (WWidget widget : mainInterface.getWidgets()) {
 			if (widget instanceof WSlot && ((WSlot) widget).getInventoryNumber() == ShestContainer.SHEST_INVENTORY) {
 				((WSlot) widget).setOverrideMaximumCount(true);
-				((WSlot) widget).setMaximumCount(420);
+				((WSlot) widget).setMaximumCount(256);
 			}
 		}
 	}
