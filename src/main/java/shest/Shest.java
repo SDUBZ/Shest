@@ -16,10 +16,10 @@ public class Shest implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ItemGroupRegistry.initialize();
 		ItemRegistry.initialize();
 		BlockRegistry.initialize();
 		EntityRegistry.initialize();
 		ContainerRegistry.initialize();
-		ItemGroupRegistry.initialize();
 	}
 }
